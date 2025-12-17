@@ -1,6 +1,7 @@
+import 'package:e_commerce_mini_shopping_cart/widgets/info_row.dart';
+import 'package:e_commerce_mini_shopping_cart/widgets/status_chip.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/widgets/info_row.dart';
-import 'package:practices/widgets/status_chip.dart';
+
 
 class OrderDetailsDialog extends StatelessWidget {
   final dynamic order; // তোমার OrderModel type চাইলে OrderModel লিখো

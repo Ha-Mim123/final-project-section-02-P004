@@ -1,6 +1,7 @@
+import 'package:e_commerce_mini_shopping_cart/models/cart_item.dart';
+import 'package:e_commerce_mini_shopping_cart/providers/cart_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/models/cart_item.dart';
-import 'package:practices/providers/cart_provider.dart';
+
 import 'package:provider/provider.dart';
 import '../providers/products_provider.dart';
 import '../widgets/product_card.dart';

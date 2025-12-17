@@ -1,5 +1,6 @@
+import 'package:e_commerce_mini_shopping_cart/utils/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/utils/constants.dart';
+
 
 class StatusChip extends StatelessWidget {
   final String status;

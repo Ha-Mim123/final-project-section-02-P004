@@ -1,8 +1,7 @@
+import 'package:e_commerce_mini_shopping_cart/providers/products_provider.dart';
+import 'package:e_commerce_mini_shopping_cart/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'package:practices/providers/products_provider.dart';
-import 'package:practices/utils/constants.dart';
 import 'products_list_screen.dart';
 
 class HomeScreen extends StatefulWidget {
