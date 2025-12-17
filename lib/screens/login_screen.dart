@@ -1,5 +1,5 @@
+import 'package:e_commerce_mini_shopping_cart/screens/main_navigation_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/screens/main_navigation_screen.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 import 'signup_screen.dart';
