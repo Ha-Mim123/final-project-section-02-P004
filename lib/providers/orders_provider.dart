@@ -1,7 +1,8 @@
+import 'package:e_commerce_mini_shopping_cart/providers/auth_provider.dart';
 import 'package:flutter/foundation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/providers/auth_provider.dart';
+
 import '../models/order.dart';
 
 class OrdersProvider with ChangeNotifier {

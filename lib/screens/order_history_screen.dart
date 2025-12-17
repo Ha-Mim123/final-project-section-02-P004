@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practices/screens/order_details_screen.dart';
-import 'package:practices/widgets/orders_details_dialog.dart';
-import 'package:practices/widgets/status_chip.dart';
+
 import 'package:provider/provider.dart';
 
 import '../providers/orders_provider.dart';
