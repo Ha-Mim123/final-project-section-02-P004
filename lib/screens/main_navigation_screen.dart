@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 import 'products_list_screen.dart';
 import 'cart_screen.dart';
 import 'order_history_screen.dart';
-import 'profile_screen.dart'; // ✅ তোমার profile_screen.dart থাকলে
+import 'profile_screen.dart'; 
 
 class MainNavigationScreen extends StatefulWidget {
   const MainNavigationScreen({super.key});
@@ -100,7 +100,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                   _Category(
                     icon: Icons.spa,
                     label: AppConstants.categories[4],
-                    onTap: () => productsProvider?.fetchProducts(
+                    onTap: () => productsProvider.fetchProducts(
                       category: AppConstants.categories[4],
                     ),
                   ),
