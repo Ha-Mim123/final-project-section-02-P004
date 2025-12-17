@@ -1,3 +1,4 @@
+import 'package:e_commerce_mini_shopping_cart/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'products_list_screen.dart';
@@ -97,7 +98,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                   _Category(
                     icon: Icons.spa,
                     label: AppConstants.categories[4],
-                    onTap: () => productsProvider.fetchProducts(
+                    onTap: () => productsProvider?.fetchProducts(
                       category: AppConstants.categories[4],
                     ),
                   ),
