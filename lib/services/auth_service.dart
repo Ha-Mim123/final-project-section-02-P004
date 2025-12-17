@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:e_commerce_mini_shopping_cart/models/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:practices/models/user_model.dart';
+
 // import '../models/user_model.dart'; // ✅ CORRECT IMPORT
 
 class AuthService {
